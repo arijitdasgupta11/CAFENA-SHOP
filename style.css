@@ -587,6 +587,7 @@ section{
         padding:2rem;
     }
 
+
 }
 
 @media (max-width:768px){
@@ -621,6 +622,11 @@ section{
     }
 
     .home{
+
+
+        background:url(images/home.jpg) no-repeat;
+
+
         background-position: left;
         justify-content: center;
         text-align: center;
@@ -641,6 +647,9 @@ section{
     html{
         font-size: 50%;
     }
+    .home{
+        background:url(images/home.jpg) no-repeat;
+        }
 
 }
 
@@ -660,6 +669,7 @@ section{
 .footer .credit a:hover{
     font-weight: bold;
     color:white;
+    
 }
 
 
